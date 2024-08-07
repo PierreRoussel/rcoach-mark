@@ -51,7 +51,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <section className='min-h-screen w-100'>
+        <section className='min-h-screen w-100 d-flex flex-justify-stretch flex-align-stretch flex-column'>
           <Header />
           <main>{children}</main>
           <Footer />

@@ -1,8 +1,10 @@
+'use client';
 import React from 'react';
 import './styles.css';
 import Button from '@/components/Button/Button';
 import Main from '../../assets/main-rco.png';
 import Image from 'next/image';
+import Tilty from 'react-tilty';
 
 export default function Hero() {
   return (
@@ -28,9 +30,9 @@ export default function Hero() {
           <i className='iconoir-nav-arrow-right'></i>
         </Button>
       </div>
-      <div className='hero-image'>
-        <Image width={'50%'} height={'auto'} src={Main} alt='RCoach' />
-      </div>
+      <Tilty className='hero-image' max={5} scale={1.05}>
+        <Image width={1000} height={1000} src={Main} alt='RCoach' />
+      </Tilty>
     </section>
   );
 }
