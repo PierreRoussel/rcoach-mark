@@ -1,0 +1,91 @@
+:root {
+  --gap-s: 4px;
+  --gap: 8px;
+  --gap-m: 12px;
+  --gap-l: 18px;
+  --gap-xl: 24px;
+  --gap-xxl: 32px;
+  --gap-xxxl: 40px;
+
+  --box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+  --box-shadow-lighten: 1px 1px 8px rgba(0, 0, 0, 0.15);
+  --box-shadow-harden: 2px 2px 18px rgba(0, 0, 0, 0.3);
+  --light-shadow: inset 125px 10px 150px 75px rgba(245, 245, 245, 0.035);
+
+  --primary: #fc4e39;
+  --secondary: #fab44a;
+  --white: lighten(var(--primary), 65%);
+  --secondary-white: lighten(var(--secondary), 15%);
+  --secondary-light: lighten(var(--secondary), 10%);
+  --secondary-gradient: linear-gradient(var(--secondary), var(--primary));
+  --success: hsl(6, 97%, 68%);
+  --fail: hsl(0, 5%, 70%);
+  --grey-0: #ffffff;
+  --grey-1: #f8f8f8;
+  --grey-2: #e6e6e6;
+  --grey-3: #8e8c93;
+  --grey-4: #5d5b62;
+  --grey-5: #312e34;
+  --primary-l-1: hsl(6, 97%, 95%);
+  --primary-l-2: hsl(6, 97%, 90%);
+  --primary-l-3: hsl(6, 97%, 85%);
+  --primary-l-4: hsl(6, 97%, 75%);
+  --primary-l-5: hsl(6, 97%, 70%);
+  --primary-gradient: linear-gradient(90deg, var(--primary), #fab44a);
+
+  --epuise: hsl(347, 100%, 88%);
+  --epuise-dark: #93344a;
+
+  --fatigue: #f9c7a4;
+  --fatigue-dark: #a1673f;
+
+  --habituel: #c5e7e8;
+  --habituel-dark: #328b8a;
+
+  --bien: #d4eadd;
+  --bien-dark: hsl(143, 26%, 51%);
+
+  --excellent: var(--primary);
+
+  --pas-assez: hsl(290, 100%, 88%);
+  --pas-assez-dark: hsl(290, 40%, 48%);
+
+  --grey-1-rgb: rgb(250, 247, 255);
+  --grey-2-rgb: rgb(236, 224, 255);
+  --grey-3-rgb: rgb(142, 140, 147);
+  --grey-4-rgb: rgb(93, 91, 98);
+  --grey-5-rgb: rgb(49, 46, 52);
+
+  --ion-text-color: var(--grey-4);
+  --background: var(--grey-0);
+  --ion-background-color: var(--background);
+
+  --icon-fill: var(--primary-l-4);
+  --icon-fill-hover: var(--primary-l-3);
+  --ciel: #a9dfeb6e;
+}
+
+[data-theme="dark"] {
+  --grey-0: #313338;
+  --grey-1: #2b2d31;
+  --grey-2: #f2f3f5;
+  --grey-3: #b4b9c0;
+  --grey-4: #5d5b62;
+  --grey-5: #1e1f22;
+
+  --background: var(--grey-0);
+  --ion-background-color: var(--background);
+  --ion-text-color: var(--grey-3);
+  --ion-toolbar-backround: var(--grey-1);
+
+  --icon-fill: var(--ion-text-color);
+  --icon-fill-hover: var(--grey-4);
+  --ciel: #3f3d56bb;
+
+  --epuise: hsla(347, 100%, 88%, 0.85);
+  --fatigue: hsla(25, 88%, 81%, 0.85);
+  --habituel: hsla(182, 43%, 84%, 0.85);
+  --bien: hsla(145, 34%, 87%, 0.85);
+  --excellent: var(--primary-r);
+  --pas-assez: hsla(290, 100%, 88%, 0.85);
+}

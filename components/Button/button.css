@@ -1,0 +1,47 @@
+.button {
+    padding: var(--gap-m) var(--gap-xl);
+    background-color: var(--primary);
+
+    border-radius: 25px;
+    border: 0;
+    outline: 1px solid transparent;
+
+    color: var(--grey-1);
+    text-decoration: none;
+    transition: all 0.23s;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    gap: var(--gap-s);
+    font-size: 1rem;
+
+    &.primary-outline {
+        background: var(--grey-1);
+        color: var(--text-color);
+        outline: 1px solid var(--grey-3);
+
+        &:hover {
+            outline-color: var(--primary);
+            background: var(--grey-1);
+            color: var(--primary);
+        }
+    }
+
+    &.primary-gradient {
+        background: linear-gradient(90deg, var(--primary), #fab44a);
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        background-color: var(--primary-l-5);
+        color: var(--grey-1);
+    }
+}

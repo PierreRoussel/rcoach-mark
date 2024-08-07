@@ -1,0 +1,63 @@
+@import "./flex-helpers.css";
+
+@font-face {
+    font-family: "Saira";
+    src: url("./fonts/saira/Saira-VariableFont_wdth\,wght.ttf") format("truetype-variations");
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+}
+
+html {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin: 0;
+    }
+}
+
+body {
+    background-color: var(--background);
+    color: var(--ion-text-color);
+    font-size: 10px;
+    font-family: "Saira", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+
+    .min-h-screen {
+        height: 100vh;
+    }
+
+    a {
+        color: var(--primary);
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: stretch;
+    }
+}
+
+.box-shadow {
+    box-shadow: var(--box-shadow);
+    &.inset-shadow {
+        box-shadow:
+            var(--box-shadow-harden),
+            inset 125px 10px 150px 75px rgba(245, 245, 245, 0.035);
+    }
+}
