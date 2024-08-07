@@ -33,7 +33,6 @@
 .flex-align-stretch {
     align-items: stretch;
 }
-
 .flex-justify-center {
     justify-content: center;
 }
@@ -55,10 +54,22 @@
 }
 
 .flex-gap {
-    gap: 1rem;
+    gap: var(--gap);
 }
 .flex-gap-s {
-    gap: .7rem;
+    gap: var(--gap-s);
+}
+.flex-gap-m {
+    gap: var(--gap-m);
+}
+.flex-gap-l {
+    gap: var(--gap-l);
+}
+.flex-gap-xl {
+    gap: var(--gap-xl);
+}
+.flex-gap-xxl {
+    gap: var(--gap-xxl);
 }
 .flex-1{
     flex: 1;

@@ -2,6 +2,7 @@
     text-align: center;
     padding-top: 5vh;
     gap: 5rem;
+    padding-bottom: 5rem;
 
     h1 {
         color: var(--grey-2);
@@ -66,4 +67,10 @@
             object-fit: contain;
         }
     }
+}
+
+.social-proof {
+    background: var(--secondary-l-0);
+    padding: var(--gap-xxxl);
+    padding-inline: 10vw;
 }

@@ -20,18 +20,29 @@
   --secondary-gradient: linear-gradient(var(--secondary), var(--primary));
   --success: hsl(6, 97%, 68%);
   --fail: hsl(0, 5%, 70%);
+
   --grey-0: #ffffff;
   --grey-1: #f8f8f8;
   --grey-2: #e6e6e6;
   --grey-3: #8e8c93;
   --grey-4: #5d5b62;
   --grey-5: #312e34;
+
+  --primary-l-0: hsl(6, 97%, 98%);
   --primary-l-1: hsl(6, 97%, 95%);
   --primary-l-2: hsl(6, 97%, 90%);
   --primary-l-3: hsl(6, 97%, 85%);
   --primary-l-4: hsl(6, 97%, 75%);
   --primary-l-5: hsl(6, 97%, 70%);
+
   --primary-gradient: linear-gradient(90deg, var(--primary), #fab44a);
+
+  --secondary-l-0: hsl(36, 95%, 98%);
+  --secondary-l-1: hsl(36, 95%, 95%);
+  --secondary-l-2: hsl(36, 95%, 90%);
+  --secondary-l-3: hsl(36, 95%, 85%);
+  --secondary-l-4: hsl(36, 95%, 75%);
+  --secondary-l-5: hsl(36, 95%, 70%);
 
   --epuise: hsl(347, 100%, 88%);
   --epuise-dark: #93344a;

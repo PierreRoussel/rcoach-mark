@@ -8,6 +8,9 @@ import MoreStories from './more-stories';
 
 import { getAllPosts } from '@/lib/api';
 import Hero from '@/pages/home/Hero';
+import SocialProof from '@/pages/home/SocialProof';
+import OtherFeatures from '@/pages/home/OtherFeatures';
+import MainFeatures from '@/pages/home/MainFeatures';
 
 function HeroPost({
   title,
@@ -56,8 +59,12 @@ export default async function Page() {
   const morePosts = allPosts.slice(1);
 
   return (
-    <div className='d-flex flex-column'>
+    <div className='d-flex flex-column flex-gap-xxl'>
       <Hero />
+      <SocialProof />
+      <MainFeatures />
+      <div style={{ 'height': '500px' }}></div>
+      <OtherFeatures />
       {/* {heroPost && (
         <HeroPost
           title={heroPost.title}
@@ -69,6 +76,7 @@ export default async function Page() {
         />
       )} */}
       {/* <MoreStories morePosts={morePosts} /> */}
+      <div style={{ 'height': '500px' }}></div>
     </div>
   );
 }

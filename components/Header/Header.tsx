@@ -11,19 +11,19 @@ export default function Header() {
       <div className='header--inner d-flex flex-align-center'>
         <Link
           href='/'
-          className='header--inner_brand d-flex flex-centered flex-gap-s'
+          className='header--inner_brand d-flex flex-centered flex-gap'
         >
           <Image width={'75'} height={'75'} src={Logo} alt='RCoach' />
         </Link>
-        <div className='d-flex flex-align-center flex-gap header--inner_links'>
+        <div className='d-flex flex-align-center flex-gap-l header--inner_links'>
           <Link href='#'>Fonctionnalités</Link>
           <Link href='#'>Comment ça marche</Link>
           <Link href='#'>Tarifs</Link>
-          <Link href='#'>Blog</Link>
+          <Link href='/posts/tru'>Blog</Link>
           <Link href='#'>A propos</Link>
         </div>
       </div>
-      <div className='d-flex flex-centered flex-gap'>
+      <div className='d-flex flex-centered flex-gap-l'>
         <Button variant={ButtonVariant.primaryOutline}>Connexion</Button>
         <Button variant={ButtonVariant.primaryGradient}>
           Essayer gratuitement

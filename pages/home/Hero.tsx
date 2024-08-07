@@ -8,7 +8,7 @@ import Tilty from 'react-tilty';
 
 export default function Hero() {
   return (
-    <section className='home-hero d-flex flex-column flex-centered flex-gap w-100'>
+    <section className='home-hero d-flex flex-column flex-centered w-100'>
       <div className='d-flex flex-column flex-gap flex-centered'>
         <h1>Le sport intelligent</h1>
         <h2>
