@@ -21,8 +21,8 @@ export default function CreativeCard({
           <Image
             className='light-icon'
             src={img}
-            width='auto'
-            height='auto'
+            width='80'
+            height='80'
             alt='icon'
           />
         </div>
